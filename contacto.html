@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Aroma | Precios y pedidos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <h1>Dulce Aroma</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <br>
+    <a href="index.html#Productos">Productos</a>
+    <br>
+    <a href="#formulario">Contacto</a>
+</nav>
+    <section id="precios">
+    <h2>Nuestros precios</h2>
+
+    <table>
+          <tr>
+            <th>Producto</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Croasan</td>
+            <td>Pan dorado y crujiente</td>
+            <td> $4.000</td>
+        </tr>
+        <tr>
+            <td>Pastel</td>
+            <td>Pastel de Chocolate</td>
+            <td>$5.000</td>
+        </tr>
+        <tr>
+            <td>Capuchino</td>
+            <td>Café suave y cremoso</td>
+            <td rowspan="3">$4.000</td>
+        </tr>
+        <tr>
+            <td>Cafe</td>
+            <td>Suave Arroma A Cafe</td>
+            
+        </tr>
+        <tr>
+            <td>Café americano</td>
+            <td>Café tradicional</td>
+        </tr>
+    </table>
+</section>
+
+<section id="formulario">
+    <h2>Haz tu pedido</h2>
+<form action="#" method="post">
+    <label for="nombre">Nombre del cliente:</label>
+    <input type="text" id="nombre" name="nombre">
+    <br>
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+    <br>
+    <label for="cantidad">cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" min="1" required>
+
+
+<br>
+
+<label for="producto">Selecciona un producto:</label>
+
+<select id="producto" name="producto" required>
+    <option value="">Elige un producto</option>
+    <option value="Croasan">Croasan</option>
+    <option value="pastel">Pastel de chocolate</option>
+    <option value="cafe">Café americano</option>
+    <option value="capuchino">Capuchino</option>
+</select>
+<br>
+<label for="detalles">Detalles del pedido:</label>
+<textarea id="detalles" name="detalles" rows="4"></textarea>
+<br>
+<button type="submit">Enviar pedido</button>
+
+</form>
+</section>
+<footer>
+    <a href="index.html">Volver al inicio</a>
+
+    <p>Dulce Aroma - Panadería y Cafetería</p>
+
+    <p>Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
