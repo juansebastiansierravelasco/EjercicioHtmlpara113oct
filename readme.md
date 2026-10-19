@@ -419,8 +419,6 @@ Las siguientes imágenes deben guardarse dentro de la carpeta `capturas/` y aña
 
 ![Página de contacto y precios de Dulce Aroma en celular](capturas/movil-contacto.png)
 
-Las imágenes deben corresponder a capturas reales del sitio. Los nombres anteriores son los nombres de archivo propuestos para mantener el repositorio organizado.
-
 ### Cómo tomar las capturas
 
 1. Abrir la página en Google Chrome.
@@ -430,12 +428,6 @@ Las imágenes deben corresponder a capturas reales del sitio. Los nombres anteri
 5. Tomar las capturas de cada página y guardarlas en la carpeta `capturas/`.
 6. Para las capturas de escritorio, desactivar la barra de dispositivos y utilizar una ventana amplia.
 7. Para los conflictos de especificidad, abrir el panel **Elements > Styles** y capturar la regla ganadora junto con la declaración perdedora tachada.
-
-## Publicación del sitio
-
-Si el proyecto se publica con GitHub Pages, el enlace se debe añadir aquí:
-
-**Sitio publicado:** [Agregar aquí la URL real de GitHub Pages]
 
 ## Autor
 
